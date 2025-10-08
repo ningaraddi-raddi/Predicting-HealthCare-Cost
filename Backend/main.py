@@ -15,14 +15,22 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
-
+import os
 # --- Load Artifacts ---
+
+model_path = "model.joblib"
+explainer_path = "explainer.joblib"
+
+if not os.path.exists(model_path) or not os.path.exists(explainer_path):
+    raise FileNotFoundError("❌ Required model files missing. Please run train.py to generate them.")
+
 try:
-    pipeline = joblib.load("model.joblib")
-    explainer = joblib.load("explainer.joblib")
+    pipeline = joblib.load(model_path)
+    explainer = joblib.load(explainer_path)
     print("✅ Model and explainer loaded successfully.")
-except FileNotFoundError:
-    raise RuntimeError("model.joblib or explainer.joblib not found. Run train.py first.")
+except Exception as e:
+    raise RuntimeError(f"❌ Failed to load model artifacts: {str(e)}")
+
 
 # --- Pydantic Model for Input Validation ---
 # **FIX:** This class no longer includes 'chronic_conditions' to match the new model.
