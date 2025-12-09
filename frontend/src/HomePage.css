@@ -1,0 +1,20 @@
+.hero-section {
+  background: linear-gradient(rgba(29, 53, 87, 0.7), rgba(29, 53, 87, 0.7)),
+    url("https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  min-height: 450px;
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
