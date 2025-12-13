@@ -29,6 +29,30 @@ Healthcare expenditure forecasting is important for individuals, insurers, and p
 - Deploying an interactive web application (React frontend + Flask backend) for real-time predictions and what-if simulations.
 
 ---
+# Pictures
+
+<img width="1914" height="990" alt="image" src="https://github.com/user-attachments/assets/a747525c-7a71-4dde-adfa-d1787c82aefb" />
+
+<img width="1819" height="962" alt="image" src="https://github.com/user-attachments/assets/33445cfe-456f-41a3-bf66-2bec40ca84cb" />
+
+<img width="1906" height="985" alt="image" src="https://github.com/user-attachments/assets/9482c9e0-00ee-4050-8957-3cb30ec3be29" />
+
+<img width="1895" height="972" alt="image" src="https://github.com/user-attachments/assets/94d03cbf-ed3a-4fd2-9cf2-d2123e0b16a0" />
+
+<img width="1916" height="952" alt="image" src="https://github.com/user-attachments/assets/7389ebc6-6a91-45a3-b92b-4ba9ce5a06ac" />
+
+## for Non-smoker
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/cfd5baf0-dacd-4aa1-8451-12509331ea53" />
+
+## for Smoker
+
+<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/8b87312f-cb11-451c-b821-d9a31f0026a2" />
+
+<img width="1913" height="993" alt="image" src="https://github.com/user-attachments/assets/e20935de-f4a6-491f-92f2-8452e924e293" />
+
+<img width="1905" height="975" alt="image" src="https://github.com/user-attachments/assets/085414ed-8975-4745-8ce1-c79425b199e1" />
+
+
 
 ## Features
 - Hybrid dataset with an engineered `chronic_conditions` feature.
